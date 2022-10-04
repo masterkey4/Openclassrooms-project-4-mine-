@@ -77,7 +77,7 @@ a:hover {
 }
 
 .bg-t-edge {
-    background: top no-repeat;
+    background: top;
 }
 
 .bloc-bg-texture::before {

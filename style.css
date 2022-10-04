@@ -69,12 +69,16 @@ a:hover {
     -webkit-background-size: auto!important;
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
+    background-size: auto!important;
 }
 
 .bg-repeat {
     background: repeat;
 }
 
+.bg-t-edge {
+    background: top no-repeat;
+}
 
 .bloc-bg-texture::before {
     content: "";
@@ -778,7 +782,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-image: url("img/new_compression_photos/atlanta\ made\ sign\ Large.jpeg");
 }
 
 .bgc-atomic-tangerine {
@@ -828,9 +832,7 @@ h4 {
     background-image: url("img/new_compression_photos/lines-h2-bg.webp");
 }
 
-.bg-atlanta-20made-20sign {
-    background-image: url("img/new_compression_photos/atlanta\ made\ sign\ Large.jpeg");
-}
+
 
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/new_compression_photos/atlanta\ made\ sign\ orange\ Large.jpeg")

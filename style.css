@@ -102,6 +102,7 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
+    background-color: #364577;
 }
 
 .d-bloc button:hover {
@@ -276,7 +277,6 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
-    
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -365,46 +365,7 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
-    }
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
-}
+
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -462,6 +423,7 @@ nav .caret {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
+
 
 button {
     outline: none!important;
@@ -821,6 +783,7 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
+  
 }
 
 .bg-dots-bg {
@@ -838,6 +801,49 @@ h4 {
 
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/new_compression_photos/atlanta\ made\ sign\ orange\ Large.jpeg")
+}
+
+
+@media (min-width: 768px) {
+    .site-navigation {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
+    .nav > li .dropdown-menu a,
+    .nav > li .dropdown-menu a:hover {
+        color: #484848;
+    }
+    .nav-invert .site-navigation {
+        left: 0;
+        right: 0;
+    }
+    .nav-center {
+        text-align: center;
+    }
+    .nav-center .navbar-header {
+        width: 100%;
+    }
+    .nav-center .navbar-header,
+    .nav-center .navbar-brand,
+    .nav-center .nav > li {
+        float: none;
+        display: inline-block;
+    }
+    .nav-center .site-navigation {
+        position: relative;
+        width: 100%;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .nav-center.mini-nav .navbar-toggle {
+        float: none;
+        margin: 10px auto 0;
+    }
+    
 }
 
 @media (max-width: 1024px) {

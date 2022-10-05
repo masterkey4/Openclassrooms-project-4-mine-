@@ -37,6 +37,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+   
 }
 
 .bloc .container {
@@ -101,7 +102,6 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
-    background-color: #364577;
 }
 
 .d-bloc button:hover {
@@ -276,6 +276,7 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -751,6 +752,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    
 }
 
 .portfolio-row {
@@ -780,10 +782,6 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
-}
-
-.bg-atlanta-20made-20sign {
-    background-image: url("img/new_compression_photos/atlanta\ made\ sign\ Large.jpeg");
 }
 
 .bgc-atomic-tangerine {
@@ -833,7 +831,9 @@ h4 {
     background-image: url("img/new_compression_photos/lines-h2-bg.webp");
 }
 
-
+.bg-atlanta-20made-20sign {
+    background-image: url("img/new_compression_photos/atlanta\ made\ sign\ Large.jpeg");
+}
 
 
 .bg-atlanta-20made-20sign-20orange {
@@ -902,6 +902,7 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+    
 }
 
 @media (max-width: 767px) {
@@ -1053,5 +1054,12 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 851px)
+{
+    .row.row-no-gutters.social {
+        display: flex;
+        justify-content: space-evenly;
     }
 }

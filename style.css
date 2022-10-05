@@ -782,7 +782,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-image: url("img/new_compression_photos/atlanta\ made\ sign\ Large.jpeg");
+    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
@@ -832,6 +832,9 @@ h4 {
     background-image: url("img/new_compression_photos/lines-h2-bg.webp");
 }
 
+.bg-atlanta-20made-20sign {
+    background-image: url("img/new_compression_photos/atlanta\ made\ sign\ Large.jpeg");
+}
 
 
 .bg-atlanta-20made-20sign-20orange {

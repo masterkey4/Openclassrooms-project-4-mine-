@@ -59,7 +59,7 @@ a:hover {
   right: 0;
 }
 .texture-paper::before {
-  background: url(http://masterkey4.github.io/Openclassrooms-project-4-mine-/img/new_compression_photos/texture-paper.webp);
+  background: url("img/new_compression_photos/texture-paper.webp");
   background-size: 280px 280px;
 }
 .b-parallax {
@@ -428,13 +428,13 @@ h4 {
   border-color: #364577 !important;
 }
 .bg-lines-h2-bg {
-  background-image: url(http://masterkey4.github.io/Openclassrooms-project-4-mine-/img/new_compression_photos/lines-h2-bg.webp);
+  background-image: url("img/new_compression_photos/lines-h2-bg.webp");
 }
 .bg-atlanta-20made-20sign {
-  background-image: url("http://masterkey4.github.io/Openclassrooms-project-4-mine-/img/new_compression_photos/atlanta\ made\ sign\ Large.jpeg");
+  background-image: url("img/new_compression_photos/atlanta\ made\ sign\ Large.jpeg");
 }
 .bg-atlanta-20made-20sign-20orange {
-  background-image: url("http://masterkey4.github.io/Openclassrooms-project-4-mine-/img/new_compression_photos/atlanta\ made\ sign\ orange\ Large.jpeg");
+  background-image: url("img/new_compression_photos/atlanta\ made\ sign\ orange\ Large.jpeg");
 }
 @media (min-width: 768px) {
   .site-navigation {

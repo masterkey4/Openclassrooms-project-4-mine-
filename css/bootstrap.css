@@ -57,7 +57,7 @@ button {
   text-transform: none;
 }
 button {
-  appearance: button;
+  -webkit-appearance: button;
   cursor: pointer;
 }
 button[disabled] {

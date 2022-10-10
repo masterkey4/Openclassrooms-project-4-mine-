@@ -275,6 +275,8 @@ a:hover {
 .row-no-gutters {
   margin-right: 0;
   margin-left: 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -401,6 +403,7 @@ a:hover {
       float: none;
       margin: 10px auto 0;
   }
+  
 }
 
 .nav > li > .dropdown a {
@@ -639,20 +642,30 @@ a[data-lightbox]:hover img {
   background: none;
 }
 
+p {
+  font-size: 12px;
+  color:#585858;
+}
+
+a {
+  color: #e2e2e2;
+ }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
 label,
-.btn,
-a {
+.btn {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757!important;
+  color: #e2e2e2 
 }
+ 
+
+
 
 .container {
   max-width: 1000px;
@@ -676,9 +689,7 @@ a {
   margin: auto auto auto auto;
 }
 
-p {
-  font-size: 12px;
-}
+
 
 .tight-width-whitespace {
   max-width: 600px;
@@ -781,7 +792,7 @@ h4 {
 }
 
 .tc-white {
-  color: #364577!important;
+  color: #ffff!important;  
 }
 
 .btn-atomic-tangerine {

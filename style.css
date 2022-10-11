@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-  color: rgba(255, 255, 255, .7);
+  color: #ffffff;
 }
 
 .d-bloc button:hover {
@@ -232,6 +232,7 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
   color: rgba(0, 0, 0, .6);
+  text-decoration: none;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -286,7 +287,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .navbar {
@@ -643,12 +644,23 @@ a[data-lightbox]:hover img {
 }
 
 p {
-  font-size: 12px;
-  color:#585858;
+  font-size: 14px;
+  color: #000000;
+}
+
+.text-to-edit {
+  font-size: 28px;
+  margin-bottom: 60px;
+  line-height: 130%
+}
+
+.moving-words {
+  margin-left: 45px;
+
 }
 
 a {
-  color: #e2e2e2;
+  color: #ffffff;
  }
 
 h1,
@@ -733,9 +745,6 @@ h3 {
   box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-  color: #333333!important;
-}
 
 h4 {
   color: #333333!important;
@@ -792,12 +801,13 @@ h4 {
 }
 
 .tc-white {
-  color: #ffff!important;  
+  color: #ffffff;
 }
 
 .btn-atomic-tangerine {
   background: #F3976C;
   color: #FFFFFF!important;
+  text-decoration: none;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1048,6 +1058,10 @@ h4 {
   .bloc {
       padding-left: 0;
       padding-right: 0;
+  }
+  .black-background {
+    background-color: rgba(35, 31, 32, 0.7);
+    padding: 0px 0px 0px 0px;
   }
 }
 

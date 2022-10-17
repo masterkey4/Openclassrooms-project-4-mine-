@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-  color: rgba(0, 0, 0, .5);
+  color: #000000;
 }
 
 .d-bloc .panel button:hover,
@@ -286,9 +286,7 @@ a:hover {
   padding-left: 0;
 }
 
-#bloc-2-services p {
-  font-size: 14px;
-}
+
 
 .navbar {
   margin-bottom: 0;
@@ -510,7 +508,7 @@ button {
 }
 
 .form-control {
-  border-color: rgba(0, 0, 0, .1);
+  border-color: #000000;
   box-shadow: none;
 }
 
@@ -528,6 +526,12 @@ button {
 .scrollToTop span {
   margin-top: 6px;
 }
+
+.moving-row {
+  margin-left: 300px
+}
+
+
 
 .showScrollTop {
   font-size: 14px;
@@ -650,17 +654,39 @@ p {
 
 .text-to-edit {
   font-size: 28px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   line-height: 130%
 }
 
-.moving-words {
-  margin-left: 45px;
+.quoting {
+  font-size: 28px;
+  margin-left: 100px;
+}
 
+.move-part-of-quote {
+  padding-left: 200px;
+  line-height: 140%
+}
+
+.moving-words {
+  margin-left: 140px;
+
+}
+
+.photo-to-text {
+  margin-left: 40px;
+}
+
+.color-for-word {
+  font-weight:bolder;
 }
 
 a {
   color: #ffffff;
+ }
+
+ .label {
+  color: #585858;
  }
 
 h1,
@@ -669,7 +695,6 @@ h3,
 h4,
 h5,
 h6,
-label,
 .btn {
   font-family: "helvetica";
   font-weight: 400;
@@ -715,6 +740,7 @@ label,
 
 .cta-hero {
   margin-top: 22px;
+  margin-bottom: 22px;
   color: #FFFFFF!important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
@@ -806,7 +832,7 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #F3976C;
-  color: #FFFFFF!important;
+  color: #232323!important;
   text-decoration: none;
 }
 
@@ -824,7 +850,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #F3976C!important;
+  color: #d54400!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -872,6 +898,34 @@ h4 {
   .nav-center.navbar .nav {
       max-width: 100%
   }
+
+  .moving-words {
+    margin-left: 0px;
+  }
+
+  .quoting {
+    font-size: 28px;
+    margin-left: 80px;
+}
+
+.move-part-of-quote {
+  padding-left: 0px;
+  line-height: 0%;
+}
+
+.moving-row {
+  margin-left: 180px;
+}
+
+.col-sm-24 {
+  width: 54%;
+  margin-left: 0px; 
+}
+
+.col-sm-23 {
+  width: 60%;
+}
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -931,6 +985,50 @@ h4 {
       padding-left: 10px!important;
       padding-right: 10px!important;
   }
+
+.photo-to-text {
+  margin-left: 24px;
+}
+
+.text-to-edit {
+  font-size: 24px;
+}
+
+.photo-to-quote {
+  padding-left: 11px;
+}
+
+.quoting {
+  font-size: 24px;
+  margin-left: 43px;
+}
+
+.move-part-of-quote {
+  padding-left: 0px;
+  line-height: 0px;
+}
+
+.moving-words {
+  margin-left: 0px;
+}
+
+.moving-row {
+  margin-left: 0px; 
+}
+
+.col-sm-24 {
+  width: 100%; 
+  margin-left: 0px;
+}
+
+input {
+  line-height: normal;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 1rem;
+}
+
   .b-parallax {
       background-attachment: scroll;
   }

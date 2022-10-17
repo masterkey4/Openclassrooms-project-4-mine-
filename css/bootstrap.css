@@ -172,7 +172,11 @@ input::-moz-focus-inner {
 }
 
 input {
-  line-height: normal
+  line-height: normal;
+  width: 330px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 1rem;
 }
 
 input[type=checkbox],
@@ -1398,7 +1402,6 @@ body {
 }
 
 button,
-input,
 select,
 textarea {
   font-family: inherit;
@@ -1425,7 +1428,7 @@ figure {
 }
 
 img {
-  margin-left: 10px;
+  margin-left: 24px;
 }
 
 .carousel-inner>.item>a>img,
@@ -1434,7 +1437,6 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
   display: block;
-  max-width: 100%;
   height: auto
 }
 
@@ -2046,7 +2048,6 @@ pre code {
 .col-sm-3,
 .col-sm-4,
 .col-sm-5,
-.col-sm-6,
 .col-sm-7,
 .col-sm-8,
 .col-sm-9,
@@ -2066,6 +2067,11 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px
+}
+
+.col-sm-24 {
+  width: 50%;
+  margin-left: 0px;
 }
 
 .col-xs-1,
@@ -2162,6 +2168,8 @@ pre code {
 .col-xs-pull-5 {
   right: 41.66666667%
 }
+
+
 
 .col-xs-pull-4 {
   right: 33.33333333%
@@ -2286,6 +2294,9 @@ pre code {
 .col-xs-offset-0 {
   margin-left: 0
 }
+.col-sm-6 {
+  width: 100%;
+}
 
 @media (min-width:768px) {
   .col-sm-1,
@@ -2299,7 +2310,8 @@ pre code {
   .col-sm-6,
   .col-sm-7,
   .col-sm-8,
-  .col-sm-9 {
+  .col-sm-9,
+  .col-sm-23 {
       float: left
   }
   .col-sm-12 {
@@ -2323,6 +2335,10 @@ pre code {
   .col-sm-6 {
       width: 50%
   }
+  .col-sm-23 {
+    width: 47%;
+  }
+
   .col-sm-5 {
       width: 41.66666667%
   }

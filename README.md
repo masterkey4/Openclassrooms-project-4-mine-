@@ -9,6 +9,8 @@
 ![D733E2C3-29FE-4F31-99AB-849A935A84B9](https://user-images.githubusercontent.com/86376957/193970355-e997d26a-f3f9-4b15-8cca-42e63cd2ab9a.jpeg)
 ![5E2AAB1D-9365-4AE4-B782-24815062E942](https://user-images.githubusercontent.com/86376957/193970400-1300a724-8ac8-43ff-b116-46a73b819e33.jpeg)
 ## Desktop "fixed"
+<img width="1680" alt="Screen Shot 2022-10-17 at 12 10 12 AM" src="https://user-images.githubusercontent.com/86376957/196087589-8564173a-bd18-4d55-bbb2-acbf0287ed6e.png">
+
 
 ## Mobile 
 ![B0094F03-0330-4A55-8457-AF09F58C4013](https://user-images.githubusercontent.com/86376957/193970746-7d968ccb-9e4c-4e77-b6c8-e692fc831a05.jpeg)

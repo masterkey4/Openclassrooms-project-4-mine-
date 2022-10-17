@@ -266,6 +266,11 @@ button {
 .btn-rd {
   border-radius: 40px;
 }
+
+input {
+  width: 100%;
+  height: 40px;
+}
 .btn-clean {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-bottom-color: rgba(0, 0, 0, 0.1);
@@ -582,6 +587,28 @@ h4 {
     padding-left: 0;
     line-height: 0;
   }
+
+  .col-sm-23 {
+    margin-left: 26%;
+  }
+
+  .cta-hero {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    color: #232323 !important;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 1em;
+    font-weight: 700;
+    width: 64%;
+  }
+
+  input {
+    width: 63%;
+    height: 30px;
+    border-radius: 4px;
+}
+
   .moving-words {
     margin-left: 0;
   }

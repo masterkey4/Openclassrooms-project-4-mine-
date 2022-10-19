@@ -2,6 +2,8 @@
 # http://127.0.0.1:5500/index.html
 # https://masterkey4.github.io/Openclassrooms-project-4-mine-/index.html
 ## Before and after screen-shots of fixing the website SEO/Accessibility issuse.
+# <img width="1680" alt="Screen Shot 2022-10-19 at 10 50 55 AM" src="https://user-images.githubusercontent.com/86376957/196725694-82cc0f39-3ae1-4f97-8c02-8cd7d34b693a.png">
+
 ## Desktop 
  ![34C85783-D25D-4A55-95A5-EFFBF136CDB5](https://user-images.githubusercontent.com/86376957/193970102-7f6a8344-bcb6-4f08-8a8f-9ef539efebd9.jpeg)
 ![A835F6A2-9BE9-4871-B9F2-412D0E4FEA07](https://user-images.githubusercontent.com/86376957/193970112-fae75d01-7e6a-4faf-9857-3c0f55378d27.jpeg)

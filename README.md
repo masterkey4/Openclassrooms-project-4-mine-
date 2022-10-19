@@ -23,4 +23,5 @@
 ![3F1CE2C3-4699-4C5B-BDA7-9F0126DFE8E4](https://user-images.githubusercontent.com/86376957/193971427-d650a14c-a906-4dae-b84b-f78e3f4986c1.jpeg)
 ![B563489F-1B18-4BA0-8857-601BF6F58561](https://user-images.githubusercontent.com/86376957/193971432-62f732da-2eb0-4582-b905-32bd6f2d2060.jpeg)
 ## Mobile "fixed"
-
+<img width="1680" alt="Screen Shot 2022-10-19 at 10 45 42 AM" src="https://user-images.githubusercontent.com/86376957/196724299-e44921eb-51ce-4b34-bbc9-4c1cf356229d.png">
+<img width="1680" alt="Screen Shot 2022-10-19 at 10 46 12 AM" src="https://user-images.githubusercontent.com/86376957/196724420-783d4032-a9c6-4302-8878-abbf035e4230.png">

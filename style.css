@@ -72,7 +72,7 @@ a:hover {
   right: 0;
 }
 .texture-paper::before {
-  background: url(img/new_compression_photos/texture-paper.webp) 0 0/280px 280px;
+  background: url("img/newphotos/texture-paper.webp") 0 0/280px 280px;
 }
 .nav > li > .dropdown a,
 .navbar-toggle:hover {
@@ -470,13 +470,13 @@ h3 {
   border-color: #364577 !important;
 }
 .bg-lines-h2-bg {
-  background-image: url("img/new_compression_photos/lines-h2-bg.webp");
+  background-image: url("img/newphotos/lines-h2-bg.webp");
 }
 .bg-atlanta-20made-20sign {
-  background-image: url("img/new_compression_photos/atlanta\ made\ sign\ Large.jpeg");
+  background-image: url("img/newphotos/atlanta\ made\ sign\ Large.jpeg");
 }
 .bg-atlanta-20made-20sign-20orange {
-  background-image: url("img/new_compression_photos/atlanta\ made\ sign\ orange\ Large.jpeg");
+  background-image: url("img/newphotos/atlanta\ made\ sign\ orange\ Large.jpeg");
 }
 @media (max-width: 1024px) {
   .bloc {
